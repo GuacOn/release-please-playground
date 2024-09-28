@@ -1,7 +1,7 @@
 {
   "extra-files": [
     {
-      "type": "generic",
+      "type": "json",
       "path": "manifest.json"
     }
   ]
