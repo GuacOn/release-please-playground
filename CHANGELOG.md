@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.3.0](https://github.com/GuacOn/release-please-playground/compare/v3.2.0...v3.3.0) (2024-09-29)
+
+
+### Features
+
+* fixy fix ([8044756](https://github.com/GuacOn/release-please-playground/commit/8044756581f5dc26a56085252d2473812e441d0b))
+* testy mctest ([2d07bf1](https://github.com/GuacOn/release-please-playground/commit/2d07bf1794cd3e4e3826d2026ae0605e7180298f))
+
 ## [3.2.0](https://github.com/GuacOn/release-please-playground/compare/v3.1.0...v3.2.0) (2024-09-29)
 
 
