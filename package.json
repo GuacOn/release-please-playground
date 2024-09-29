@@ -1,6 +1,6 @@
 {
   "name": "monitor-info-grabber",
-  "description": "description! ",
+  "description": "description! asdf ",
   "scripts": {
     "setup": "npm i",
     "build": "npx rimraf built && npm run setup && tsc && npm run copy-files",
