@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.2.0](https://github.com/GuacOn/release-please-playground/compare/v3.1.0...v3.2.0) (2024-09-29)
+
+
+### Features
+
+* **core:** some new feature ([3167dbc](https://github.com/GuacOn/release-please-playground/commit/3167dbc37f0338927aaae61349cde5eb0fdd0ea9))
+
 ## [3.1.0](https://github.com/GuacOn/semantic-version-test/compare/v3.0.0...v3.1.0) (2024-09-29)
 
 
