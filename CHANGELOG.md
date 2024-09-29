@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.3.1](https://github.com/GuacOn/release-please-playground/compare/v3.3.0...v3.3.1) (2024-09-29)
+
+
+### Bug Fixes
+
+* upload empty release asset ([7a1fca7](https://github.com/GuacOn/release-please-playground/commit/7a1fca75832baf9de4fb3b79e14c7f555a8686c9))
+
 ## [3.3.0](https://github.com/GuacOn/release-please-playground/compare/v3.2.0...v3.3.0) (2024-09-29)
 
 
