@@ -13,7 +13,11 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
+      - name: "Build artifact"
+        run: touch blah.xpi
+
       - uses: googleapis/release-please-action@v4
+        id: release
         with:
           # this assumes that you have created a personal access token
           # (PAT) and configured it as a GitHub action secret named
@@ -21,3 +25,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           # this is a built-in strategy in release-please, see "Action Inputs"
           # for more options
+      - name: Upload Release Artifact
+        if: ${{ steps.release.outputs.release_created }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release upload ${{ steps.release.outputs.tag_name }} ./blah.xpi
