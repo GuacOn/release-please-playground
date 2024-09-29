@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Build artifact"
-        run: touch blah.xpi
+        run: pwd && touch blah.xpi && ls -la
 
       - uses: googleapis/release-please-action@v4
         id: release
