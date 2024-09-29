@@ -13,6 +13,9 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
       - name: "Build artifact"
         run: pwd && touch blah.xpi && ls -la
 
