@@ -1,9 +1,15 @@
 {
-  "extra-files": [
-    {
-      "type": "json",
-      "path": "manifest.json",
-      "jsonpath": "$.version"
+  "packages": {
+    ".": {
+      "release-type": "node",
+
+      "extra-files": [
+        {
+          "type": "json",
+          "path": "manifest.json",
+          "jsonpath": "$.version"
+        }
+      ]
     }
-  ]
+  }
 }
