@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.1.0](https://github.com/GuacOn/semantic-version-test/compare/v3.0.0...v3.1.0) (2024-09-29)
+
+
+### Features
+
+* **ui:** some new feat now ([37ea933](https://github.com/GuacOn/semantic-version-test/commit/37ea93349e39bc933a567ffe161b11738bf4c4a5))
+
+
+### Bug Fixes
+
+* **ui:** some fix for the new feature ([e494471](https://github.com/GuacOn/semantic-version-test/commit/e49447157b39b60dd0c88e87a1803cb851188d5b))
+
 ## [3.0.0](https://github.com/GuacOn/semantic-version-test/compare/v2.0.0...v3.0.0) (2024-09-29)
 
 
