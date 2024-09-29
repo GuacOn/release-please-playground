@@ -36,5 +36,6 @@
   "dependencies": {
     "release-please": "^16.14.0",
     "semantic-release": "^24.1.2"
-  }
+  },
+  "version": "2.0.0"
 }
