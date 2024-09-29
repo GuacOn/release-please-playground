@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: "Build artifact"
-        run: pwd && touch blah.xpi && ls -la
+        run: pwd && echo "test" > blah.xpi && ls -la
 
       - uses: googleapis/release-please-action@v4
         id: release
